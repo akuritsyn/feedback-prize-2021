@@ -1,6 +1,8 @@
 # [Feedback Prize - Evaluating Student Writing](https://www.kaggle.com/c/feedback-prize-2021)
 
-## Top 2% solution (36/2060) based on a baseline model developed by [Abhishek Thakur](https://github.com/abhishekkrthakur/long-text-token-classification).
+### Top 2% solution (36/2060) based on a baseline model developed by [Abhishek Thakur](https://github.com/abhishekkrthakur/long-text-token-classification).
+
+## [Kaggle write-up](https://www.kaggle.com/c/feedback-prize-2021/discussion/313452)
 
 ## Requirements
 
@@ -9,7 +11,7 @@
 - [Transformers](https://huggingface.co/docs/transformers/index) 4.15.0
 
 
-# Architecture
+## Architecture
 
 - The solution is an ensemble of 5 transformer models, each trained on 5 folds: 2x `deberta-large`, 2x `deberta-v3-large` and 1x `longformer-large`. The two versions of deberta models were trained using `dropout=0.1` and `dropout=0.15` and `max_len=1024` parameters, while for longformer-large model `dropout=0.1` and `max_len=1536` parameters were used. 
 
