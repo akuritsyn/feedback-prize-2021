@@ -1,6 +1,6 @@
 # [Feedback Prize - Evaluating Student Writing](https://www.kaggle.com/c/feedback-prize-2021)
 
-## Top 2% solution (36/2060) based on an initial model developed by [Abhishek Thakur](https://github.com/abhishekkrthakur/long-text-token-classification).
+## Top 2% solution (36/2060) based on a baseline model developed by [Abhishek Thakur](https://github.com/abhishekkrthakur/long-text-token-classification).
 
 ## Requirements
 
