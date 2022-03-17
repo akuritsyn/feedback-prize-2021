@@ -17,7 +17,8 @@
 
 ## Preparation
 
-- Put `./data` directory in the root level and unzip the files downloaded from [Kaggle](https://www.kaggle.com/c/feedback-prize-2021/data) there. 
+- Download [tez pytorch trainier library](https://github.com/abhishekkrthakur/tez) and put it at the root level
+- Put `./data` directory at the root level and unzip the files downloaded from [Kaggle](https://www.kaggle.com/c/feedback-prize-2021/data) there. 
 - In order to use deberta v2 or v3, you need to patch transformers library to create a new fast tokenizer using data and instructions from [this](https://www.kaggle.com/nbroad/deberta-v2-3-fast-tokenizer) kaggle dataset.
 - Download `microsoft/deberta-large`, `microsoft/deberta-v3-large` and `allenai/transformer-large` or any other transformer models using [nbs/download_model.ipynb](https://github.com/akuritsyn/feedback-prize-2021/blob/main/nbs/download_model.ipynb) and save them in `./model` folder.
 - Create 5 training folds using [nbs/creating_folds.ipynb](https://github.com/akuritsyn/feedback-prize-2021/blob/main/nbs/creating_folds.ipynb).
